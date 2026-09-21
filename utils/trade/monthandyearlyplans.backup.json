@@ -1,0 +1,8 @@
+[
+  { "name": "Starter", "id": "plan_P27zXMHG535lUY", "billing": "monthly", "seat": 1 },
+  { "name": "Starter", "id": "plan_P281zroXwdW4BX", "billing": "yearly", "seat": 1 },
+  { "name": "Team", "id": "plan_OwbMtjMOXuPsUJ", "billing": "yearly", "seat": 10 },
+  { "name": "Team", "id": "plan_OwbNic6adHlbbx", "billing": "monthly", "seat": 10 },
+  { "name": "Business", "id": "plan_OwbOXPJchv5oZU", "billing": "yearly", "seat": 20 },
+  { "name": "Business", "id": "plan_OwbP9R7tmIE3SC", "billing": "monthly", "seat": 20 }
+]

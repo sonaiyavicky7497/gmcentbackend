@@ -1,0 +1,94 @@
+<html lang='en'>
+  <head>
+    <meta charset='UTF-8' />
+    <meta http-equiv='X-UA-Compatible' content='IE=edge' />
+    <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+    <title>New Enterprise Enquiry</title>
+  </head>
+
+  <body style='margin:0; padding:0; background-color:#f9f9f9; font-family:Arial, Helvetica, sans-serif; color:#333333;'>
+    <table width='100%' cellpadding='0' cellspacing='0' border='0' bgcolor='#f9f9f9'>
+      <tr>
+        <td align='center'>
+
+          <!-- Main Container -->
+          <table width='600' cellpadding='0' cellspacing='0' border='0' style='max-width:600px; background-color:#ffffff;'>
+
+            <!-- Header -->
+            <tr>
+              <td style='padding:20px;'>
+                <h2 style='margin:0; font-size:20px;'>
+                  📩 New Enterprise Enquiry – GPS Map Camera ENT
+                </h2>
+                <p style='margin:6px 0 0; font-size:14px; color:#555555;'>
+                  Company:
+                  <strong>{{companyName}}</strong>
+                </p>
+              </td>
+            </tr>
+
+            <!-- Contact Person Details -->
+            <tr>
+              <td style='padding:0 20px 10px;'>
+                <h3 style='margin-bottom:8px;'>Contact Person Details</h3>
+
+                <p><strong>Name:</strong> {{contactPersonName}}</p>
+                <p><strong>Phone:</strong> {{phone}}</p>
+                <p>
+                  <strong>Email:</strong>
+                  <a href='mailto:{{personEmail}}' style='color:#1a73e8;'>
+                    {{personEmail}}
+                  </a>
+                </p>
+              </td>
+            </tr>
+
+            <!-- Company Details -->
+            <tr>
+              <td style='padding:10px 20px;'>
+                <h3 style='margin-bottom:8px;'>Company Details</h3>
+
+                <p><strong>Enterprise ID:</strong> {{companyId}}</p>
+                <p><strong>Company Name:</strong> {{companyName}}</p>
+                <p>
+                  <strong>Company Email:</strong>
+                  <a href='mailto:{{companyEmail}}' style='color:#1a73e8;'>
+                    {{companyEmail}}
+                  </a>
+                </p>
+                <p><strong>Company Username:</strong> {{companyUserName}}</p>
+                <p><strong>Plan:</strong> {{plan}}</p>
+                <p><strong>Plan Expiry Date:</strong> {{planExpiry}}</p>
+              </td>
+            </tr>
+
+            <!-- Concern -->
+            <tr>
+              <td style='padding:10px 20px 20px;'>
+                <h3 style='margin-bottom:8px;'>Concern / Enquiry Details</h3>
+
+                <p><strong>Type:</strong> {{type}}</p>
+                <p><strong>User Message:</strong></p>
+                <p style='background-color:#f4f6f8; padding:10px; border-radius:4px;'>
+                  {{msg}}
+                </p>
+              </td>
+            </tr>
+
+            <!-- Footer -->
+            <tr>
+              <td align='center' style='padding:12px; background-color:#f4f6f8;'>
+                <p style='margin:0; font-size:12px; color:#888888;'>
+                  © GPS Map Camera ENT. Internal notification email.
+                </p>
+              </td>
+            </tr>
+
+          </table>
+          <!-- End Container -->
+
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>

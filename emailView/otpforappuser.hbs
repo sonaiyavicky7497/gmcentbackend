@@ -1,0 +1,109 @@
+<html lang='en'>
+  <head>
+    <meta charset='UTF-8' />
+    <meta http-equiv='X-UA-Compatible' content='IE=edge' />
+    <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+    <title>Email Verification OTP</title>
+  </head>
+
+  <body style='margin:0; padding:0; background-color:#f9f9f9;'>
+    <table width='100%' cellpadding='0' cellspacing='0' border='0' bgcolor='#f9f9f9'>
+      <tr>
+        <td align='center'>
+
+          <!-- Main Container -->
+          <table
+            width='600'
+            cellpadding='0'
+            cellspacing='0'
+            border='0'
+            style='max-width:600px; background-color:#ffffff; font-family:Arial, Helvetica, sans-serif;'
+          >
+
+            <!-- Logo -->
+            <tr>
+              <td style='padding:20px;'>
+                <img
+                  src='https://api.gpsmapcamera.com/public/images/ent-logo.png'
+                  alt='GPS Map Camera ENT'
+                  width='150'
+                  style='display:block; border:0; outline:none;'
+                />
+              </td>
+            </tr>
+
+            <!-- Content -->
+            <tr>
+              <td style='padding:0 20px 20px; color:#333333; font-size:14px; line-height:1.6;'>
+                <p><strong>Dear {{name}},</strong></p>
+
+                <p>
+                  We have received a registration request for your
+                  <strong>GPS Map Camera ENT</strong>
+                  account. To ensure your account’s security, please verify your email address by entering the following One-Time Password (OTP):
+                </p>
+
+                <!-- OTP Box -->
+                <table align='center' cellpadding='0' cellspacing='0' border='0' style='margin:16px auto;'>
+                  <tr>
+                    <td
+                      style='
+                      background-color:#e9ebff;
+                      padding:12px 20px;
+                      border-radius:4px;
+                      font-size:20px;
+                      font-weight:bold;
+                      letter-spacing:3px;
+                      text-align:center;
+                      color:#333333;
+                    '
+                    >
+                      {{otp}}
+                    </td>
+                  </tr>
+                </table>
+
+                <p>
+                  Please enter this OTP to complete your email verification. This OTP is valid for
+                  <strong>5 minutes</strong>.
+                </p>
+
+                <p>
+                  For security reasons,
+                  <strong>do not share this OTP</strong>
+                  with anyone.
+                </p>
+
+                <p style='margin-top:20px;'>
+                  Thank you,<br />
+                  <strong>GPS Map Camera ENT</strong>
+                </p>
+              </td>
+            </tr>
+
+            <!-- Footer Note -->
+            <tr>
+              <td align='center' style='padding:8px;'>
+                <p style='margin:0; font-size:12px; color:#999999;'>
+                  This email can’t receive replies.
+                </p>
+              </td>
+            </tr>
+
+            <!-- Copyright -->
+            <tr>
+              <td align='center' style='padding:12px; background-color:#f4f6f8;'>
+                <p style='margin:0; font-size:12px; color:#888888;'>
+                  © GPS Map Camera ENT. All rights reserved.
+                </p>
+              </td>
+            </tr>
+
+          </table>
+          <!-- End Container -->
+
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>

@@ -1,0 +1,118 @@
+<html lang='en'>
+  <head>
+    <meta charset='UTF-8' />
+    <meta http-equiv='X-UA-Compatible' content='IE=edge' />
+    <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+    <title>Custom Plan Payment</title>
+  </head>
+
+  <body style='margin:0; padding:0; background-color:#f9f9f9;'>
+    <table width='100%' cellpadding='0' cellspacing='0' border='0' bgcolor='#f9f9f9'>
+      <tr>
+        <td align='center'>
+
+          <!-- Main Container -->
+          <table
+            width='600'
+            cellpadding='0'
+            cellspacing='0'
+            border='0'
+            style='max-width:600px; background-color:#ffffff; font-family:Arial, Helvetica, sans-serif;'
+          >
+
+            <!-- Logo -->
+            <tr>
+              <td style='padding:20px;'>
+                <img
+                  src='https://api.gpsmapcamera.com/public/images/ent-logo.png'
+                  alt='GPS Map Camera ENT'
+                  width='150'
+                  style='display:block; border:0; outline:none;'
+                />
+              </td>
+            </tr>
+
+            <!-- Content -->
+            <tr>
+              <td style='padding:0 20px 20px; color:#333333; font-size:14px; line-height:1.6;'>
+                <p><strong>Dear {{name}},</strong></p>
+
+                <p>
+                  We have received a request for a
+                  <strong>custom enterprise plan</strong>
+                  for your GPS Map Camera ENT account.
+                </p>
+
+                <p>
+                  Please review the plan details and proceed with the payment using the link below.
+                </p>
+
+                <!-- CTA Button -->
+                <table align='center' cellpadding='0' cellspacing='0' border='0' style='margin:20px auto;'>
+                  <tr>
+                    <td
+                      style='
+                      background-color:#5d5fef;
+                      border-radius:4px;
+                      text-align:center;
+                    '
+                    >
+                      <a
+                        href='{{planPurchaseURL}}'
+                        style='
+                        display:inline-block;
+                        padding:12px 24px;
+                        font-size:16px;
+                        font-weight:bold;
+                        color:#ffffff;
+                        text-decoration:none;
+                      '
+                      >
+                        Proceed to Payment
+                      </a>
+                    </td>
+                  </tr>
+                </table>
+
+                <p>
+                  Please ensure that you complete the payment before
+                  <strong>{{expiryTime}}</strong>, as this payment link will expire after the specified time.
+                </p>
+
+                <p>
+                  If you have any questions regarding the plan or payment process, feel free to contact our support team for assistance.
+                </p>
+
+                <p style='margin-top:20px;'>
+                  Thank you,<br />
+                  <strong>GPS Map Camera ENT</strong>
+                </p>
+              </td>
+            </tr>
+
+            <!-- Footer Note -->
+            <tr>
+              <td align='center' style='padding:8px;'>
+                <p style='margin:0; font-size:12px; color:#999999;'>
+                  This email can’t receive replies.
+                </p>
+              </td>
+            </tr>
+
+            <!-- Copyright -->
+            <tr>
+              <td align='center' style='padding:12px; background-color:#f4f6f8;'>
+                <p style='margin:0; font-size:12px; color:#888888;'>
+                  © GPS Map Camera ENT. All rights reserved.
+                </p>
+              </td>
+            </tr>
+
+          </table>
+          <!-- End Container -->
+
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>

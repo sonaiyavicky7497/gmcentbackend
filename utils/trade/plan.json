@@ -1,0 +1,39 @@
+[
+  {
+    "name": "Starter",
+    "itemId": "item_RyD2Bqc35F6pe2",
+    "billing": "yearly",
+    "seat": 2,
+    "logo": 1,
+    "projectName": 5,
+    "companyName": 1,
+    "price": 3599
+  },
+  {
+    "name": "Team",
+    "itemId": "item_RyD2ayrwdJhIxL",
+    "billing": "yearly",
+    "seat": 10,
+    "logo": 3,
+    "projectName": 20,
+    "companyName": 3,
+    "price": 14999
+  },
+  {
+    "name": "Business",
+    "itemId": "item_RyD2tu8EbOmyXs",
+    "billing": "yearly",
+    "seat": 20,
+    "logo": "10",
+    "projectName": "50",
+    "companyName": "10",
+    "price": 23999
+  },
+  {
+    "name": "Enterprise",
+    "logo": "infinity",
+    "projectName": "infinity",
+    "companyName": "infinity",
+    "price": 0
+  }
+]

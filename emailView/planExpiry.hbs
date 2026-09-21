@@ -1,0 +1,101 @@
+<html lang='en'>
+  <head>
+    <meta charset='UTF-8' />
+    <meta http-equiv='X-UA-Compatible' content='IE=edge' />
+    <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+    <title>Enterprise Plan Expired</title>
+  </head>
+
+  <body style='margin:0; padding:0; background-color:#f9f9f9;'>
+    <table width='100%' cellpadding='0' cellspacing='0' border='0' bgcolor='#f9f9f9'>
+      <tr>
+        <td align='center'>
+
+          <!-- Main Container -->
+          <table
+            width='600'
+            cellpadding='0'
+            cellspacing='0'
+            border='0'
+            align='center'
+            style='max-width:600px; background-color:#ffffff; font-family:Arial, Helvetica, sans-serif;'
+          >
+
+            <!-- Logo -->
+            <tr>
+              <td style='padding:20px;'>
+                <img
+                  src='https://api.gpsmapcamera.com/public/images/ent-logo.png'
+                  alt='GPS Map Camera ENT'
+                  width='150'
+                  style='display:block; border:0; outline:none;'
+                />
+              </td>
+            </tr>
+
+            <!-- Content -->
+            <tr>
+              <td style='padding:0 20px 20px; color:#333333; font-size:14px; line-height:1.6;'>
+                <p>Dear {{fName}},</p>
+
+                <p>
+                  We would like to inform you that your
+                  <strong>Enterprise plan</strong>
+                  has
+                  <strong>expired on {{expiredAt}}</strong>.
+                </p>
+
+                <p>
+                  To continue enjoying uninterrupted access to enterprise features and ensure a seamless experience for your app users, we recommend
+                  renewing your plan at the earliest.
+                </p>
+
+                <p>
+                  Please note that if the plan remains expired, access to certain enterprise features may be limited or temporarily disabled.
+                </p>
+
+                <p style='margin:16px 0; font-weight:bold;'>
+                  Renew your plan to restore full access.
+                </p>
+
+                <!-- Optional renewal link -->
+                <p>
+                  <a href='{{renewUrl}}' style='color:#1a73e8; text-decoration:none;'>
+                    {{renewUrl}}
+                  </a>
+                </p>
+
+                <p>
+                  If you have already renewed your plan, please ignore this email.
+                </p>
+
+                <p>
+                  For any questions or assistance regarding your subscription, feel free to contact our support team.
+                </p>
+
+                <p style='margin:20px 0 4px;'>
+                  Best regards,
+                </p>
+                <p style='margin:0; font-weight:bold;'>
+                  GPS Map Camera ENT
+                </p>
+              </td>
+            </tr>
+
+            <!-- Footer -->
+            <tr>
+              <td align='center' style='padding:12px; background-color:#f4f6f8;'>
+                <p style='margin:0; font-size:12px; color:#888888;'>
+                  © GPS Map Camera ENT. All rights reserved.
+                </p>
+              </td>
+            </tr>
+
+          </table>
+          <!-- End Container -->
+
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>

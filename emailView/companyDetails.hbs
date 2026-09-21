@@ -1,0 +1,221 @@
+<html lang='en'>
+  <head>
+    <meta charset='UTF-8' />
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, user-scalable=yes' />
+    <title>GPS Map Camera ENT | Company Details</title>
+    <style>
+      /* Resets & fallbacks for email clients */
+      .ExternalClass,
+      .ReadMsgBody {
+        width: 100%;
+        background-color: #f4f6f8;
+      }
+      body,
+      table,
+      td,
+      p,
+      a {
+        -webkit-text-size-adjust: 100%;
+        -ms-text-size-adjust: 100%;
+      }
+      table,
+      td {
+        border-collapse: collapse;
+        mso-table-lspace: 0pt;
+        mso-table-rspace: 0pt;
+      }
+      img {
+        border: 0;
+        height: auto;
+        line-height: 100%;
+        outline: none;
+        text-decoration: none;
+        -ms-interpolation-mode: bicubic;
+      }
+      body {
+        margin: 0;
+        padding: 0;
+        background-color: #f4f6f8;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+    </style>
+  </head>
+  <body style='margin:0; padding:0; background-color:#f4f6f8; font-family: Arial, Helvetica, sans-serif;'>
+    <!-- main email wrapper (fully compatible with the elegant GPS Map Camera ENT style) -->
+    <table width='100%' cellpadding='0' cellspacing='0' border='0' bgcolor='#f4f6f8' role='presentation'>
+      <tr>
+        <td align='center' style='padding:20px 10px;'>
+          <!-- Main container: consistent width, white background, rounded corners -->
+          <table
+            width='600'
+            cellpadding='0'
+            cellspacing='0'
+            border='0'
+            style='max-width:600px; width:100%; background-color:#ffffff; border-radius:6px; font-family: Arial, Helvetica, sans-serif; box-shadow: 0 1px 4px rgba(0,0,0,0.05);'
+            role='presentation'
+          >
+
+            <!-- Logo Section: identical to GPS Map Camera ENT invitation email -->
+            <tr>
+              <td style='padding:20px 20px 12px 20px;'>
+                <img
+                  src='https://api.gpsmapcamera.com/public/images/ent-logo.png'
+                  alt='GPS Map Camera ENT'
+                  width='150'
+                  style='display:block; border:0;'
+                />
+              </td>
+            </tr>
+
+            <!-- Intro line (company details notification, consistent with brand voice) -->
+            <tr>
+              <td style='padding:10px 20px 0px;'>
+                <p style='margin:0 0 10px; font-size:15px; color:#111111; font-weight:600;'>
+                  📋 Your Enterprise Registration Confirmation
+                </p>
+                <p style='margin:0 0 14px; font-size:14px; color:#555555; line-height:1.5;'>
+                  Thank you for choosing
+                  <strong>GPS Map Camera Enterprise</strong>. Below are the company details associated with your organization. Keep this information
+                  for your records — it confirms your business profile and access entitlements.
+                </p>
+              </td>
+            </tr>
+
+            <!-- LICENSE / COMPANY DETAILS CARD: matches the "Exclusive License Details" card design -->
+            <tr>
+              <td style='padding:10px 20px 16px;'>
+                <table
+                  width='100%'
+                  cellpadding='0'
+                  cellspacing='0'
+                  border='0'
+                  style='background-color:#f1f3f6; border-radius:6px;'
+                  role='presentation'
+                >
+                  <tr>
+                    <td style='padding:18px 20px;'>
+                      <!-- Company Basic Information Section (visually organized like license block) -->
+                      <p style='margin:0 0 12px; font-size:16px; color:#333333; font-weight:600;'>
+                        🏢 Company Basic Information
+                      </p>
+                      <p style='margin:5px 0; font-size:14px; color:#555555;'>
+                        <strong>Company Name:</strong>
+                        {{companyName}}
+                      </p>
+                      <p style='margin:5px 0; font-size:14px; color:#555555;'>
+                        <strong>Company Type:</strong>
+                        {{companyType}}
+                      </p>
+                      <p style='margin:5px 0; font-size:14px; color:#555555;'>
+                        <strong>Website:</strong>
+                        {{website}}
+                      </p>
+                      <p style='margin:5px 0; font-size:14px; color:#555555;'>
+                        <strong>Enterprise ID (ENT ID):</strong>
+                        {{enterpriseId}}
+                      </p>
+                      <p style='margin:5px 0; font-size:14px; color:#555555;'>
+                        <strong>Created Date:</strong>
+                        {{createdDate}}
+                      </p>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+
+            <!-- Contact Information Card: elegant block similar to previous card style but visually separated -->
+            <tr>
+              <td style='padding:8px 20px 16px;'>
+                <table
+                  width='100%'
+                  cellpadding='0'
+                  cellspacing='0'
+                  border='0'
+                  style='background-color:#f1f3f6; border-radius:6px;'
+                  role='presentation'
+                >
+                  <tr>
+                    <td style='padding:18px 20px;'>
+                      <p style='margin:0 0 12px; font-size:16px; color:#333333; font-weight:600;'>
+                        📇 Contact Information
+                      </p>
+                      <p style='margin:5px 0; font-size:14px; color:#555555;'>
+                        <strong>First Name:</strong>
+                        {{fName}}
+                      </p>
+                      <p style='margin:5px 0; font-size:14px; color:#555555;'>
+                        <strong>Last Name:</strong>
+                        {{lName}}
+                      </p>
+                      <p style='margin:5px 0; font-size:14px; color:#555555;'>
+                        <strong>Email:</strong>
+                        {{email}}
+                      </p>
+                      <p style='margin:5px 0; font-size:14px; color:#555555;'>
+                        <strong>Phone Number:</strong>
+                        {{phone}}
+                      </p>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+
+            <!-- Address Information Card: follows same consistent rounded card style -->
+            <tr>
+              <td style='padding:8px 20px 20px;'>
+                <table
+                  width='100%'
+                  cellpadding='0'
+                  cellspacing='0'
+                  border='0'
+                  style='background-color:#f1f3f6; border-radius:6px;'
+                  role='presentation'
+                >
+                  <tr>
+                    <td style='padding:18px 20px;'>
+                      <p style='margin:0 0 12px; font-size:16px; color:#333333; font-weight:600;'>
+                        📍 Address Information
+                      </p>
+                      <p style='margin:5px 0; font-size:14px; color:#555555;'>
+                        <strong>Company Address:</strong>
+                        {{companyAddress}}
+                      </p>
+                      <p style='margin:5px 0; font-size:14px; color:#555555;'>
+                        <strong>Billing Address:</strong>
+                        {{billingAddress}}
+                      </p>
+                      <!-- location field originally commented in template, but if needed uncomment -->
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+
+            <!-- Signature consistent with original template -->
+            <tr>
+              <td style='padding:10px 20px 20px;'>
+                <p style='margin:0; font-size:14px; color:#555555;'>
+                  Warm regards,
+                </p>
+                <p style='margin:0; font-size:14px; color:#555555; font-weight:600;'>
+                  GPS Map Camera ENT Team
+                </p>
+              </td>
+            </tr>
+
+            <!-- Footer identical to the high-quality base design -->
+            <tr>
+              <td align='center' style='padding:12px; background-color:#f4f6f8; border-radius:0 0 6px 6px;'>
+                <p style='margin:0; font-size:12px; color:#888888;'>
+                  © GPS Map Camera ENT. All rights reserved.
+                </p>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
